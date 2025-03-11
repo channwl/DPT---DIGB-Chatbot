@@ -7,6 +7,9 @@ from langchain.chains import RetrievalQA
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
 
+# OpenAI API 키 설정
+openai.api_key = st.secrets["openai"]["API_KEY"]
+
 # Streamlit UI 구성
 st.set_page_config(page_title="학과 챗봇", page_icon="🎓", layout="wide")
 st.title("📚 학과 정보 챗봇")
