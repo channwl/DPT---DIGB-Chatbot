@@ -8,3 +8,4 @@ pymupdf
 faiss-cpu
 PyPDF2
 PdfReader
+pydantic==1.10.12
