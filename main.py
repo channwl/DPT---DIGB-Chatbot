@@ -6,6 +6,7 @@ from langchain.llms import OpenAI
 from langchain.chains import RetrievalQA
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
+import openai
 
 # OpenAI API 키 설정
 openai.api_key = st.secrets["openai"]["API_KEY"]
