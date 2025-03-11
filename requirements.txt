@@ -6,3 +6,5 @@ langchain_community
 openai
 pymupdf
 faiss-cpu
+PyPDF2
+PdfReader
