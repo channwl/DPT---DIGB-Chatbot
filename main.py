@@ -12,9 +12,7 @@ import os
 import openai
 
 # 환경 변수 불러오기
-from dotenv import load_dotenv
-load_dotenv()
-openai.api_key = os.getenv("YOURKEY")
+openai.api_key = st.secrets["openai"]["API_KEY"]
 
 ### PDF Embeddings
 
